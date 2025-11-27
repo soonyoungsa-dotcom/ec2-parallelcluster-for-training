@@ -7,12 +7,12 @@
     * Framework: Megatron-LM, pyxis/enroot container
     
 
-## 3. The AWS EC2 Instance-Level SLA is 99.5% or higher per month. 
+## 2. The AWS EC2 Instance-Level SLA is 99.5% or higher per month. 
 
 This means that "the ratio of Unavailability in a month is ≤ 0.5%". Converted to a daily average, the average allowable Unavailability per day is 7.2 minutes (= 1440 × 0.005).
 
 Therefore, to meet 99.5% SLA:
-* Daily failure count F ≤ 7.2 / MTTR (min)
+* Daily failure count F vs MTTR: 
 * If MTTR=60 minutes, F ≤ 0.12 failures/day
 * If MTTR=30 minutes, F ≤ 0.24 failures/day
 * If MTTR=10 minutes, F ≤ 0.72 failures/day
