@@ -1,0 +1,41 @@
+# Generated cluster configuration (contains actual AWS resource IDs)
+cluster-config.yaml
+
+# Python virtual environment
+pcluster-venv/
+venv/
+env/
+*.pyc
+__pycache__/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# AWS credentials and sensitive data
+*.pem
+*.key
+.aws/
+credentials
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+.cache/
+
+# Personal environment files (keep your actual values private)
+environment-variables-*.sh
+!environment-variables.sh
