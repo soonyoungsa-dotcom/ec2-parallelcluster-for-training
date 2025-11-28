@@ -93,7 +93,7 @@ As a worst-case assumption, the 1024 H200 GPU (128 node) cluster is expected to 
 
 The main **causes of failures** in Meta’ logs are as follows.
 
-![Node Failure Causes](img/Meta-Failure-Causes.png)
+![Node Failure Causes](../img/Meta-Failure-Causes.png)
 
 ## 4. Maximizing Resource Utilization for 128x P5en.48xlarge
 
@@ -125,7 +125,7 @@ If the Failures of the cluster per day are low:
 
 The table below calculates the daily training time ratio (ETTR) and average daily Disruption time, assuming Recovery Times of 30 minutes and 10 minutes. The green rows indicate the optimal checkpoint save interval.
 
-![Checkpoint-interval-ETTR](img/Checkpoint-interval-ETTR.png)
+![Checkpoint-interval-ETTR](../img/Checkpoint-interval-ETTR.png)
 
 ## 5. To Use or Not Use a Spare Node? 
 
