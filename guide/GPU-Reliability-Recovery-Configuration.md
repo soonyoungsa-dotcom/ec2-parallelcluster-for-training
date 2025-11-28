@@ -25,7 +25,7 @@ For each individual Amazon EC2 instance (“Single EC2 Instance”), AWS will us
 |Less than 99.5% but equal to or greater than 99.0%	|10%	|
 |Less than 99.0% but equal to or greater than 95.0%	|30%	|
 |Less than 95.0%	|100%	|
-|
+
 ### Amazon Compute SLA Exclusions
 
 Instance-Level SLA, respectively, do not apply to any unavailability, suspension or termination of Amazon EC2, or any other Amazon EC2performance issues, directly or indirectly: (i) caused by factors outside of our reasonable control, including any force majeure event or Internet access or related problems beyond the demarcation point of Amazon EC2; (ii) **that result from any actions or inactions of you, including failure to acknowledge a recovery volume or respond to resource health concerns;** (iii) that result from your equipment, software or other technology; or (iv) arising from our suspension or termination of your right to use the applicable Amazon EC2 in accordance with the Agreement.
@@ -86,7 +86,6 @@ Daily Failure Rate Estimate for 128x P5en.48xlarge nodes (1024 H200)
 |A100 (RSC-1, Meta measured)	|0.0065	|0.83 failures/day	|29 h	|[arXiv](https://arxiv.org/html/2410.21680v1)1 (Meta)	|
 |H100 (Meta easured)	|0.0038	|0.49 failures/day	|49 h	|[arXiv](https://arxiv.org/pdf/2407.21783)2 The Llama 3 Herd of Models. 3.3.4 Reliability and Operational Challenges (Meta)	|
 |**H200**(H100 × 1.2 conservative)	|0.0045	|0.58 failures/day	|**42 h**	|H100 measured × 1.2	|
-|
 
 
 As a worst-case assumption, the 1024 H200 GPU (128 node) cluster is expected to have an average of 0.58 failures per day, with one node going down every 42 hours. Since the Meta data is from a year ago when H100 was first released, the actual data point may be improved at the current time.
