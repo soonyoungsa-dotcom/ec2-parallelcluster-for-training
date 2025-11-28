@@ -127,7 +127,7 @@ The table below calculates the daily training time ratio (ETTR) and average dail
 
 ![Checkpoint-interval-ETTR](../img/Checkpoint-interval-ETTR.png)
 
-## 5. To Use or Not Use a Spare Node? 
+## 5. To Use or Not to Use a Spare Node? 
 
 ### Comparison of Resource Utilization for 128-node (1 node = 8x H200) with and without Spares
 
